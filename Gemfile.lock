@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     activesupport (4.0.2)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
@@ -45,10 +46,16 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+=======
+    rack (1.5.2)
+    rack-protection (1.5.1)
+      rack
+>>>>>>> 6545582025b2267e8ec388d520f14dd5364855df
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+<<<<<<< HEAD
     sinatra-contrib (1.4.2)
       backports (>= 2.0)
       multi_json
@@ -67,11 +74,15 @@ GEM
     tilt (1.4.1)
     tzinfo (0.3.38)
     xml-simple (1.1.2)
+=======
+    tilt (1.4.1)
+>>>>>>> 6545582025b2267e8ec388d520f14dd5364855df
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   httparty
   json
   lastfm
@@ -80,3 +91,6 @@ DEPENDENCIES
   sinatra
   sinatra-reloader
   soundcloud
+=======
+  sinatra
+>>>>>>> 6545582025b2267e8ec388d520f14dd5364855df
